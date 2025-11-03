@@ -27,6 +27,16 @@ pnpm run test
 pnpm run format
 ```
 
+## Routes des pages
+
+Je n'ai malheuresement pas pu mettre en place les routes pour les pages ni la redirection automatique, du coup à l'ouverture on tombe sur la page 404 de Next JS
+Voici les routes existantes :
+
+- Page de dashboard : "/dashboard"
+- Page des tables : "/tables"
+- Page de connexion : "/auth/login"
+- Page d'inscription: "/auth/register"
+
 ## Librairies utilisées
 - Next Js
 - React Icons
