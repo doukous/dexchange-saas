@@ -1,0 +1,67 @@
+[
+    {
+        "image": "chakra.jpg",
+        "name": "Chakra Soft UI Version",
+        "members": [
+            "member1.jpg",
+            "member2.jpg",
+            "member3.jpg",
+            "member4.jpg",
+            "member5.jpg",
+            "member6.jpg"
+        ],
+        "budget": 14000,
+        "completion": 60,
+        "status": "Working"
+    },
+    {
+        "image": "dropbox.jpg",
+        "name": "Add Progress Track",
+        "members": [
+            "member1.jpg",
+            "member2.jpg",
+            "member3.jpg"
+        ],
+        "budget": 3000,
+        "completion": 10,
+        "status": "Canceled"
+    },
+    {
+        "image": "slack.jpg",
+        "name": "Fix Platform Errors",
+        "members": [
+            "member1.jpg",
+            "member2.jpg"
+        ],
+        "budget": null,
+        "completion": 100,
+        "status": "Done"
+    },
+    {
+        "image": null,
+        "name": "Launch our Mobile App",
+        "members": [],
+        "budget": 32000,
+        "completion": 100,
+        "status": "Done"
+    },
+    {
+        "image": null,
+        "name": "Add the New Pricing Page",
+        "members": [],
+        "budget": 400,
+        "completion": 25,
+        "status": "Working"
+    },
+    {
+        "image": "invision.jpg",
+        "name": "Redesign New Online Shop",
+        "members": [
+            "member1.jpg",
+            "member2.jpg"
+        ],
+        "budget": 7600,
+        "completion": 40,
+        "status": null
+    }
+]

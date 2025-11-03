@@ -1,15 +1,42 @@
+"use client"
+
+import { usePathname } from "next/navigation"
+import { Input } from "./ui/input"
+import { Search } from "lucide-react"
+import { BsFillPersonFill } from "react-icons/bs"
+import { IoSettingsSharp } from "react-icons/io5"
+import { FaBell } from "react-icons/fa6"
+
 export default function UpperBar() {
+  const pathname = usePathname()
+
     return (
         <div className="w-full flex justify-between">
-          <p>Pages / Dashboard</p>
-          <div className="flex gap-4">
-            <input type="text" name="search" id="search-bar" placeholder="type here..." className="ring-1" />
+          <div className="flex justify-between space-x-2 items-center">
+            <span className="text-gray-500">Pages</span>
+            <span>/</span>
+            {
+              pathname === '/dashboard' ?
+              <span>Dashboard</span>
+              :
+              <span>Tables</span>
+            }
+          </div>
+          <div className="flex items-center gap-4 text-gray-600 px-8">
+            <Input
+              type="text"
+              name="search"
+              id="search-bar"
+              placeholder="Type here..."
+              className="rounded-2xl bg-white h-7"
+              iconLeft={<Search size={16}/>}
+            />
             <div className="flex items-center gap-x-2">
-              <div className="size-6 bg-gray-400 rounded-2xl"></div>
-              <p>sign in</p>
+              <BsFillPersonFill color="gray" />
+              <p>Sign in</p>
             </div>
-            <div className="size-6 bg-gray-400 rounded-2xl"></div>
-            <div className="size-6 bg-gray-400 rounded-2xl"></div>
+            <IoSettingsSharp color="gray" />
+            <FaBell color="gray" />
           </div>
         </div>
     )

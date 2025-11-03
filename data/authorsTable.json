@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Esthera Jackson",
+        "email": "esthera@simmmple.com",
+        "role": "Manager",
+        "department": "Organisation",
+        "is_online": true,
+        "employed_at": "14/06/21"
+    },
+    {
+        "name": "Alexa Liras",
+        "email": "alexa@simmmple.com",
+        "role": "Programmer",
+        "department": "Developer",
+        "is_online": false,
+        "employed_at": "14/06/21"
+    },
+    {
+        "name": "Laurent Michael",
+        "email": "laurent@simmmple.com",
+        "role": "Executive",
+        "department": "Projects",
+        "is_online": true,
+        "employed_at": "14/06/21"
+    },
+    {
+        "name": "Freduardo Hill",
+        "email": "freduardo@simmmple.com",
+        "role": "Manager",
+        "department": "Organisation",
+        "is_online": true,
+        "employed_at": "14/06/21"
+    },
+    {
+        "name": "Daniel Thomas",
+        "email": "daniel@simmmple.com",
+        "role": "Programmer",
+        "department": "Developer",
+        "is_online": false,
+        "employed_at": "14/06/21"
+    },
+    {
+        "name": "Mark Wilson",
+        "email": "mark@simmmple.com",
+        "role": "Designer",
+        "department": "UI/UX Design",
+        "is_online": false,
+        "employed_at": "14/06/21"
+    }
+]
